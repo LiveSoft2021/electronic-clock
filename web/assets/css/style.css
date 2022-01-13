@@ -1,0 +1,99 @@
+@media only screen and (max-width: 1200px) {
+    .big-clock {
+        width: 100% !important;
+    }
+}
+
+.big-clock {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   margin: 0 auto;
+}
+
+.dotted-block {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   width: 150px;
+}
+
+.hours-block,
+.minutes-block,
+.seconds-block {
+   width: 400px;
+}
+
+.hours-block,
+.minutes-block,
+.seconds-block {
+   display: flex;
+   justify-content: space-evenly;
+   padding-top: 43px;
+}
+
+.hours-block,
+.minutes-block,
+.dotted-block,
+.seconds-block {
+   height: 400px;
+   background-color: aqua;
+}
+
+.top-top,
+.center-center,
+.bottom-bottom {
+   position: relative;
+   width: 150px;
+   height: 15px;
+}
+
+.top-top {
+   bottom: 322px;
+   border-radius: 40px;
+}
+
+.center-center {
+   bottom: 181px;
+   border-radius: 40px;
+}
+
+.bottom-bottom {
+   bottom: 40px;
+   border-radius: 40px;
+}
+
+.top-left,
+.top-right,
+.bottom-left,
+.bottom-right {
+   width: 15px;
+   height: 150px;
+   display: inline-block;
+   border-radius: 40px;
+}
+
+.default-color {
+   background-color: #e9e8e8;
+}
+
+.top-right,
+.bottom-right {
+   float: right;
+}
+
+.black {
+   background-color: #000;
+}
+
+.top-dot,
+.bottom-dot {
+   width: 50px;
+   height: 50px;
+   border-radius: 25px;
+   margin: 0 auto;
+}
+
+.dotted-style {
+    background-color: #000;
+}
